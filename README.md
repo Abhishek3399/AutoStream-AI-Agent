@@ -3,7 +3,7 @@ AI-powered conversational sales agent that classifies user intent, answers produ
 
 A production-grade conversational AI sales agent built for the ServiceHive / Inflx 
 Machine Learning Intern Assignment. The agent simulates a real-world social-to-lead 
-workflow for AutoStream — a fictional SaaS platform offering automated video editing 
+workflow for AutoStrea, a fictional SaaS platform offering automated video editing 
 tools for content creators.
 
 ## What it does
@@ -11,11 +11,11 @@ tools for content creators.
 The agent handles the full sales conversation lifecycle autonomously:
 
 - Greets users naturally and answers any product or pricing question using a 
-  local knowledge base (RAG), so responses are always grounded in facts — no hallucinations
+  local knowledge base (RAG), so responses are always grounded in facts, no hallucinations
 - Detects when a user shows high purchase intent in real time and smoothly 
   transitions into lead qualification
 - Collects the user's name, email, and creator platform one step at a time 
-  through natural conversation — never all at once
+  through natural conversation, never all at once
 - Fires a lead capture function the moment all three fields are collected, 
   simulating a CRM or webhook integration
 
@@ -41,7 +41,7 @@ The agent handles the full sales conversation lifecycle autonomously:
 - RAG pipeline — BM25 retriever pulls relevant pricing, feature, and policy chunks 
   from the knowledge base and injects them into the LLM prompt
 - Stateful lead collection — a LangGraph state machine tracks conversation stage 
-  (chat → collecting_name → collecting_email → collecting_platform → complete) 
+  (chat - collecting_name - collecting_email -collecting_platform - complete) 
   across multiple HTTP requests using MemorySaver
 - Tool safety — mock_lead_capture() only fires when all three fields are confirmed 
   in state, never prematurely
@@ -53,8 +53,4 @@ The agent handles the full sales conversation lifecycle autonomously:
 
 ## Architecture
 
-User → Next.js Frontend → FastAPI → LangGraph Agent → Claude Haiku
-                                           ↓
-                                    BM25 Retriever ← autostream_kb.json
-                                           ↓
-                                   mock_lead_capture()
+User - Next.js Frontend - FastAPI - LangGraph Agent - Claude Haiku - BM25 Retriever - autostream_kb.json -       mock_lead_capture()
