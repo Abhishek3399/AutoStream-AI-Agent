@@ -1,0 +1,94 @@
+{
+  "company": {
+    "name": "AutoStream",
+    "tagline": "AI-powered video editing for serious creators",
+    "description": "AutoStream is a SaaS platform that uses AI to automate the entire video editing workflow — from raw footage to publish-ready content — for YouTube, Instagram, TikTok, and beyond.",
+    "founded": "2023",
+    "supported_platforms": ["YouTube", "Instagram", "TikTok", "LinkedIn", "Twitter/X", "Facebook"]
+  },
+  "pricing": {
+    "basic": {
+      "name": "Basic Plan",
+      "price_monthly": 29,
+      "price_annual": 23,
+      "features": [
+        "10 videos per month",
+        "Up to 720p resolution export",
+        "Basic auto-cut editing",
+        "Standard templates library (50+ templates)",
+        "Background music library (200+ tracks)",
+        "Email support with 48-hour response time",
+        "1 user seat",
+        "5 GB cloud storage"
+      ],
+      "limitations": [
+        "No AI captions",
+        "No 4K export",
+        "No 24/7 support",
+        "No analytics dashboard",
+        "No custom branding"
+      ]
+    },
+    "pro": {
+      "name": "Pro Plan",
+      "price_monthly": 79,
+      "price_annual": 63,
+      "features": [
+        "Unlimited videos per month",
+        "4K resolution export",
+        "AI-powered captions and subtitles in 50+ languages",
+        "Advanced auto-edit with scene detection and filler-word removal",
+        "Premium templates library (500+ templates)",
+        "Custom branding, watermarks, and intros",
+        "24/7 live priority support",
+        "Advanced analytics dashboard",
+        "Multi-platform one-click export (YouTube, Instagram, TikTok)",
+        "3 user seats",
+        "100 GB cloud storage",
+        "B-roll AI suggestions",
+        "Thumbnail generator"
+      ],
+      "limitations": []
+    }
+  },
+  "policies": {
+    "refund": "No refunds are issued after 7 days from the purchase date. Within the first 7 days, users may request a full refund with no questions asked by contacting support@autostream.io.",
+    "support": "24/7 live chat and phone support is available exclusively on the Pro plan. Basic plan users receive email support with a maximum 48-hour response time.",
+    "trial": "A 14-day free trial is available for both Basic and Pro plans. A valid credit card is required to start the trial. You will not be charged until the trial ends.",
+    "cancellation": "Users may cancel their subscription at any time from the account dashboard. The subscription remains active until the end of the current billing period. No partial refunds are issued for unused time.",
+    "data": "AutoStream stores all video projects securely in AWS S3 with AES-256 encryption. Projects are retained for 90 days after subscription cancellation.",
+    "billing": "Subscriptions are billed monthly or annually. Annual billing offers approximately 20% savings. All prices are in USD."
+  },
+  "features": {
+    "ai_captions": {
+      "title": "AI Captions & Subtitles",
+      "description": "AutoStream's AI generates accurate captions in 50+ languages with over 95% accuracy. Captions are fully editable and can be styled to match your brand. Auto-sync ensures captions always match the audio.",
+      "available_on": "Pro plan only"
+    },
+    "auto_edit": {
+      "title": "Auto-Edit Engine",
+      "description": "The scene detection AI automatically identifies and removes dead air, filler words (um, uh, like), and segments with poor lighting or audio quality. Produces a clean cut in seconds.",
+      "available_on": "Both plans (advanced version on Pro)"
+    },
+    "templates": {
+      "title": "Template Library",
+      "description": "Industry-specific templates for gaming, vlogging, tutorials, podcasts, vlogs, product reviews, and more. Templates include intros, outros, lower thirds, and transitions.",
+      "available_on": "Basic (50+ templates), Pro (500+ templates)"
+    },
+    "export": {
+      "title": "Multi-Platform Export",
+      "description": "Export directly to YouTube, Instagram Reels/Stories, TikTok, LinkedIn, and Twitter/X with platform-optimized aspect ratios, resolutions, and file sizes. One-click publishing available on Pro.",
+      "available_on": "Both plans"
+    },
+    "analytics": {
+      "title": "Analytics Dashboard",
+      "description": "Track video performance across all connected platforms from a single dashboard. View views, engagement rate, watch time, and audience retention curves.",
+      "available_on": "Pro plan only"
+    },
+    "thumbnail_generator": {
+      "title": "AI Thumbnail Generator",
+      "description": "Generate click-worthy thumbnails using AI. Choose from multiple styles, add text overlays, and A/B test thumbnails directly from AutoStream.",
+      "available_on": "Pro plan only"
+    }
+  }
+}
