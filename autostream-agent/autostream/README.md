@@ -304,4 +304,4 @@ Agent: Saves platform, calls mock_lead_capture(), sends confirmation  [stage: co
 
 ---
 
-*Built with ❤️ for the ServiceHive / Inflx ML Intern Assignment*
+*Built for the ServiceHive / Inflx ML Intern Assignment*
